@@ -1,0 +1,68 @@
+=========================================
+PROJECT PRESENTATION: EMAIL DUPLICATE DETECTOR
+=========================================
+
+1. TITLE SLIDE
+-----------------------------------------
+- Project Name: Email Duplicate Detector
+- Course: Discrete Structures (Assignment)
+- Group Members:
+  * Hussain Ali (Roll No: 033)
+  * Eman Tufail (Roll No: 016)
+  * Maryam (Roll No: 038)
+
+2. PROBLEM STATEMENT
+-----------------------------------------
+- Data Integrity Issues: When collecting emails from various sources (web forms, manual entry, or multiple databases), datasets often become cluttered with redundant information.
+- Manual Inefficiency: Manually searching through thousands of records to find duplicates is mathematically tedious and highly prone to human error.
+- Formatting Errors: Invalid email formats (e.g., missing '@' or '.com') often go unnoticed, leading to "bounced" emails and failed communications.
+- Performance Bottlenecks: For a large dataset of size 'N', a naive manual check or inefficient code (O(N^2)) can take a long time or even crash a browser.
+
+3. OUR SOLUTION
+-----------------------------------------
+- Automated Filtering: Our tool instantly scans the entire file and categorizes every entry into 'Unique', 'Duplicate', or 'Invalid'.
+- Mathematical Optimization: By applying Set Theory and JavaScript 'Sets' (Hash-based), we reduced the processing time from minutes to milliseconds (O(N) complexity).
+- Data Cleaning: The "Unique Emails" feature filters out all noise, leaving only valid, distinct data ready for professional use.
+- Seamless Workflow: Features like "Download Clean List" and "Copy to Clipboard" allow users to go from a "dirty" dataset to a "clean" one in seconds.
+
+4. FEATURES & FUNCTIONALITY
+-----------------------------------------
+- Drag & Drop Interface: Modern, user-friendly file upload system.
+- Dual Format Support: Processes both .JSON and .TXT files.
+- Smart Validation: Automatically identifies invalid email formats using Regex.
+- Efficiency: Uses optimized Data Structures (Sets) for O(n) performance.
+- Results Export: 
+    * Download cleaned lists as JSON.
+    * Copy specific categories to clipboard.
+
+4. TECHNICAL STACK (The "How it Works")
+-----------------------------------------
+- HTML5: Structural integrity and semantic layout.
+- CSS3: Custom animations, responsive design, and modern "Drop Zone" styling.
+- JavaScript (ES6+):
+    * FileReader API for local file processing (no server needed).
+    * Sets & Arrays for high-speed duplicate detection.
+    * Blob API for generating downloadable cleaned files.
+
+5. DISCRETE STRUCTURES APPLICATION
+-----------------------------------------
+- Set Theory: The core logic uses the concept of 'Unique Sets' to ensure no two elements are identical.
+- Algorithms: Optimization from O(n^2) to O(n) time complexity by replacing nested loops with hash-based lookups.
+- Logic: Boolean logic and Regular Expressions (Regex) for data validation.
+
+6. DEMONSTRATION STEPS
+-----------------------------------------
+- Step 1: Select or drag a file (JSON/TXT).
+- Step 2: Click "Detect Emails".
+- Step 3: View the breakdown (Total, Unique, Duplicates, Invalid).
+- Step 4: Download the finalized "Clean List".
+
+7. CONCLUSION & FUTURE SCOPE
+-----------------------------------------
+- Conclusion: The project successfully applies Discrete Structure concepts to a real-world software tool.
+- Future Scope: Adding CSV support, integration with email APIs, and advanced domain verification.
+
+8. Q&A
+-----------------------------------------
+- Open floor for questions from the instructor and peers.
+=========================================

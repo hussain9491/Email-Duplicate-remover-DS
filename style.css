@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#667eea,#764ba2);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:#333;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+width:90%;
+max-width:500px;
+text-align:center;
+}
+
+h2{
+margin-bottom:20px;
+color:#444;
+}
+
+.drop-zone {
+    max-width: 100%;
+    height: 150px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #cccccc;
+    border: 3px dashed #667eea;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.drop-zone--over {
+    border-style: solid;
+    background-color: #f0f4ff;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__prompt {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+button{
+background:#667eea;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+width: 100%;
+margin-bottom: 10px;
+}
+
+button:hover{
+background:#5563d6;
+}
+
+#stats {
+margin-top: 15px;
+background: #eef2ff;
+padding: 15px;
+border-radius: 8px;
+text-align: left;
+font-size: 14px;
+border-left: 4px solid #667eea;
+}
+
+.result-block {
+    margin-top: 20px;
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.result-header h4 {
+    margin: 0;
+    color: #444;
+}
+
+.action-btn {
+    background: #fff;
+    color: #667eea;
+    border: 1px solid #667eea;
+    padding: 5px 10px;
+    font-size: 12px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.action-btn:hover {
+    background: #667eea;
+    color: #fff;
+}
+
+pre {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    max-height: 150px;
+    overflow: auto;
+    font-size: 13px;
+    border: 1px solid #eee;
+    margin: 0;
+}
+
+pre::-webkit-scrollbar{
+width:6px;
+}
+
+pre::-webkit-scrollbar-thumb{
+background:#ccc;
+border-radius:10px;
+} 
