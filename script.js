@@ -48,9 +48,17 @@ function processFile() {
         return;
     }
 
-    const reader = new FileReader();
     const fileName = file.name;
     const isTxt = fileName.endsWith('.txt');
+    const isJson = fileName.endsWith('.json');
+
+    // Explicit check for supported formats
+    if (!isTxt && !isJson) {
+        alert("Unsupported file format! Please upload a .txt or .json file.");
+        return;
+    }
+
+    const reader = new FileReader();
 
     reader.onload = function(event) {
         try {
